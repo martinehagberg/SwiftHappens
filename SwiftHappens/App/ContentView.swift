@@ -26,9 +26,9 @@ struct ContentView: View {
                     }
             }
             
-            Tab("Tools", systemImage: "book.and.wrench"){
+            Tab("Instagram", systemImage: "heart.fill"){
                 NavigationStack{
-                    APITesterView()
+                    InstagramProfileView()
                 }
             }
             
